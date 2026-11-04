@@ -1,0 +1,37 @@
+/* Constructora Cielo: tokens de marca.
+   Colores medidos sobre su banner de Facebook (logo, titulares y la sala del render)
+   y sobre la foto de José; tipografías de Google Fonts. */
+
+:root {
+  /* Marca */
+  --cielo: #0b7fcb;          /* el azul del logo y de la franja del banner */
+  --cielo-claro: #e3f1fb;
+  --profundo: #04325c;       /* titulares y precio del banner */
+  --sol: #f49b1b;            /* «constructora», el pájaro, «junio y julio» */
+  --sol-claro: #fdf0dc;
+
+  /* La sala del banner */
+  --madera: #5e3f25;         /* la isla de la cocina */
+  --madera-oscura: #3f2a18;
+  --beige: #cbbdb3;          /* el sofá */
+  --arena: #f5f0eb;          /* las paredes, aclaradas para fondo */
+
+  /* Detalle crítico: el rojo de la camiseta de José. Solo en señales pequeñas
+     (la etiqueta «Antes», el punto junto a su nombre), nunca en superficies. */
+  --rojo: #c8232c;
+
+  --blanco: #ffffff;
+  --tinta: #0f2236;          /* texto corrido */
+  --gris: #5b6875;           /* texto secundario, 6,1:1 sobre blanco */
+  --linea: #e4e7ea;
+
+  /* Tipografía */
+  --f-titulo: "Outfit", system-ui, sans-serif;
+  --f-texto: "Figtree", system-ui, sans-serif;
+
+  /* Medidas */
+  --ancho: 1200px;
+  --margen: clamp(16px, 4vw, 40px);
+  --radio: 4px;
+  --sombra: 0 18px 40px -24px rgb(4 50 92 / .35);
+}
