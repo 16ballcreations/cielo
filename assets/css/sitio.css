@@ -237,6 +237,7 @@ p { margin: 0; }
 .tarjeta[hidden] { display: none; }
 .tarjeta img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .8s ease; }
 .tarjeta:hover img { transform: scale(1.06); }
+.tarjeta-enlace { position: absolute; inset: 0; z-index: 2; }
 .tarjeta::after { content: ""; position: absolute; inset: 40% 0 0; background: linear-gradient(transparent, rgb(4 30 56 / .85)); }
 .tarjeta-texto { position: absolute; z-index: 1; left: 22px; right: 22px; bottom: 22px; }
 .tarjeta-texto small { font: 600 .7rem/1 var(--f-titulo); letter-spacing: .14em; text-transform: uppercase; color: var(--sol); }

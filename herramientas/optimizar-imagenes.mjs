@@ -35,6 +35,15 @@ const fotos = [
   { de: 'mucura-puerta-corrediza_reel-DecWmF4CObJ.jpg', a: 'p-puerta', recorte: [0, 40, 720, 1200], ancho: 600 },
   { de: 'web-render-exterior-113.jpg', a: 'p-casa', recorte: [560, 0, 648, 1080], ancho: 600 },
   { de: 'web-render-interior-103-escalera.jpg', a: 'p-interior', recorte: [900, 0, 648, 1080], ancho: 600 },
+  // Página del proyecto Mucura: portada ancha y galería (4:5)
+  { de: 'mucura-cocina-en-L-terminada_reel-DeUn_htCtAK.jpg', a: 'mucura-portada', recorte: [0, 660, 1080, 608], ancho: 1080 },
+  { de: 'mucura-cocina-en-L-terminada_reel-DeUn_htCtAK.jpg', a: 'mucura-g-cocina', recorte: [0, 300, 1080, 1350], ancho: 720 },
+  { de: 'mucura-clienta-feliz-en-cocina_reel-DeUn_htCtAK.jpg', a: 'mucura-g-clienta', recorte: [0, 350, 1080, 1350], ancho: 720 },
+  { de: 'mucura-cocina-y-nevera_reel-DeUn_htCtAK.jpg', a: 'mucura-g-nevera', recorte: [0, 250, 1080, 1350], ancho: 720 },
+  { de: 'mucura-bano-ducha-vidrio_reel-DecWmF4CObJ.jpg', a: 'mucura-g-ducha', recorte: [0, 150, 720, 900], ancho: 720 },
+  { de: 'mucura-closet-madera_reel-DecWmF4CObJ.jpg', a: 'mucura-g-closet', recorte: [0, 100, 720, 900], ancho: 720 },
+  { de: 'mucura-entrega-clienta-acta_post-DeNJkjGEiAy.jpg', a: 'mucura-g-acta', recorte: [300, 0, 1728, 2160], ancho: 720 },
+  { de: 'mucura-chaleco-construimos-confianza_post-DeNJkjGEiAy.jpg', a: 'mucura-g-chaleco', recorte: [64, 0, 512, 640], ancho: 512 },
 ];
 
 for (const f of fotos) {

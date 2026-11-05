@@ -38,6 +38,8 @@ producir contenido.
 | 9 | Opiniones | Tres reseñas de Google |
 | 10 | Contacto | Franja azul cielo; el formulario arma el mensaje de WhatsApp |
 
+**Página de proyecto: `proyectos/mucura/`.** Es la forma del proyecto de Larson: título grande con foto ancha, el relato al lado de la ficha, los seis cambios, render y obra, una galería con visor, la entrega (con el contrato y el testimonio en video) y un llamado final. La portada y las tarjetas de Mucura enlazan aquí.
+
 ## Marca
 
 | Token | Valor | De dónde sale |
@@ -59,6 +61,8 @@ Tipografías: Outfit (títulos) y Figtree (texto), de Google Fonts, en lugar de 
 | `assets/css/marca.css` | Tokens de color y tipografía |
 | `assets/css/sitio.css` | Estilos de la página |
 | `assets/js/sitio.js` | Portada, menú, revelados, cifras, render/obra, filtros y formulario |
+| `proyectos/mucura/index.html` | Página del proyecto Mucura |
+| `assets/css/proyecto.css`, `assets/js/proyecto.js` | Estilos y comportamiento de las páginas de proyecto (visor de la galería incluido) |
 | `assets/img/marca/` | Logo recortado del banner (`logo-banner.png`) e isotipo del pájaro |
 | `assets/img/web/` | Fotos recortadas y en WebP |
 | `herramientas/servir.mjs` | Servidor local: `node herramientas/servir.mjs 4340` |
@@ -82,3 +86,7 @@ La investigación (`investigacion/`) no se sube: nombra a personas y es material
   de la nota de la Cámara de Comercio de Cali. Confirmar que quiere ambos en la web.
 - **Reseñas**: solo se pudieron leer 5 de 20. Se publican con nombre e inicial del apellido,
   como aparecen en Google.
+- **Proyecto Mucura**: área, tiempo de obra, fecha de entrega y si fue con el paquete o a la medida.
+  También el permiso de la clienta para mostrar su cara y su testimonio, y si quiere aparecer con nombre.
+  La frase del testimonio («Estoy recibiendo hoy la unidad Mucura…») sale de los subtítulos del reel DeUn_htCtAK.
+  Hay que confirmarla con el audio. No hay fotos del «antes».
